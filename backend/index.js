@@ -4,7 +4,7 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 const jwt = require("jsonwebtoken");
-const config = require("./config.json");
+
 const mongoose = require("mongoose");
 const User = require("./models/user.models");
 const { authenticateToken } = require("./utilities");
